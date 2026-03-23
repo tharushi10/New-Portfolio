@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tharushi Hansani | Portfolio</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Modal -->
+  <div class="modal" id="globalModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <img id="modalImage" src="" alt="Preview" />
+      <div class="modal-text">
+        <h3 id="modalTitle">Title</h3>
+        <p id="modalDescription">Description</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Tharushi</a>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+           <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-text reveal">
+          <span class="hero-badge">UI/UX Designer & Graphic Designer</span>
+          <h1>Hello, I'm <span>Tharushi Hansani</span></h1>
+          <h2 class="typing-line">
+            <span id="typingText"></span><span class="cursor">|</span>
+          </h2>
+          <p>
+            I create modern, user-friendly, and visually engaging digital experiences
+            with a strong focus on clean interfaces and meaningful user journeys.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="Tharushi hansani CV .pdf" class="btn btn-outline" download>
+              Download CV
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/tharushi-hansani-5951b7375/" aria-label="LinkedIn" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/tharushi10" aria-label="GitHub" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.behance.net/senarattharush" aria-label="Behance" target="_blank">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image reveal delay-1">
+          <div class="hero-image-wrap">
+            <img src="Tharushi.jpeg" alt="Tharushi Hansani" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">About Me</span>
+          <h2>Crafting thoughtful digital experiences</h2>
+          <p>
+            I am an undergraduate with a passion for UI/UX design, graphic design,
+            and front-end creativity. I enjoy transforming ideas into elegant,
+            functional, and engaging interfaces.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3>Who I Am</h3>
+            <p>
+              I’m an undergraduate at the Faculty of Technology, University of Colombo,
+              specializing in ICT. With a strong passion for UI/UX design and Graphic,
+              I enjoy creating user-centered interfaces that provide meaningful and intuitive experiences.
+            </p>
+
+            <div class="about-details">
+              <div><strong>Name:</strong> Tharushi Hansani</div>
+              <div><strong>Email:</strong> thansani81@gmail.com</div>
+              <div><strong>Location:</strong> Sri Lanka</div>
+            </div>
+
+            <a href="Tharushi hansani CV .pdf" class="btn btn-primary" download>
+              Download CV
+            </a>
+          </div>
+
+          <div class="timeline reveal delay-1">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h4>UI/UX Design Journey</h4>
+                <p>Built mobile and web app concepts using Figma and modern design principles.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h4>Creative Projects</h4>
+                <p>Portfolio of projects created including food delivery apps, cinema booking systems, and e-commerce apps.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h4>Continuous Learning</h4>
+                <p>Developing stronger skills in front-end design, interaction design, and product thinking.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Education -->
+<section id="education" class="section section-dark">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">Education</span>
+      <h2>My Academic Journey</h2>
+      <p>My educational background and continuous learning path.</p>
+    </div>
+
+    
+      <div class="education-item reveal">
+        <div class="education-content">
+          <h3>Faculty of Technology, University of Colombo</h3>
+          <h4>Bachelor of Information and Communication Technology (Undergraduate)</h4>
+          <span class="education-year">2023 - Present</span>
+        </div>
+      </div>
+
+      <div class="education-item reveal delay-1">
+        <div class="education-content">
+          <h3>Mahinda Rajapaksha College - Matara</h3>
+          <h4>G.C.E Advanced Level</h4>
+          <span class="education-year">2018 - 2021</span>
+         <b> <p>
+            Followed Bio System Technology Stream for A/L<br>
+
+-Information and Communication Technology -A<br>
+
+-Science For Technology -A<br>
+
+-Bio System Technology -B<br>
+          </p></b>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Services -->
+    <section id="services" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Services</span>
+          <h2>What I Can Do</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+            <h3>UI Design</h3>
+            <p>Clean and attractive user interfaces for mobile apps and websites.</p>
+          </div>
+
+          <div class="service-card reveal delay-1">
+            <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3>UX Research</h3>
+            <p>Understanding user needs and improving product usability with better flows.</p>
+          </div>
+
+          <div class="service-card reveal delay-2">
+            <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>Mobile App Design</h3>
+            <p>Modern app screens with smooth navigation and user-friendly layouts.</p>
+          </div>
+
+          <div class="service-card reveal delay-3">
+            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Web Design</h3>
+            <p>Responsive website designs that look great across desktop and mobile devices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Skills</span>
+          <h2>Tools & Technologies</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span>UI/UX Design</span>
+              <span>100%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal delay-1">
+            <div class="skill-header">
+              <span>Figma</span>
+              <span>100%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal delay-2">
+            <div class="skill-header">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span>CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal delay-1">
+            <div class="skill-header">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal delay-2">
+            <div class="skill-header">
+              <span>Graphic Design</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span>Photoshop</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal delay-1">
+            <div class="skill-header">
+              <span>Illustrator</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Projects</span>
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="filter-buttons reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card reveal" data-category="mobile">
+            <div class="project-image">
+              <img src="pizzamartapp.png" alt="PizzaMart">
+              <div class="project-overlay">
+                <a href="https://www.behance.net/gallery/245659543/STYLEHAVEN" class="overlay-btn" target="_blank">Case Study</a>
+                <a href="https://www.figma.com/design/vdBiU9CNc9GNcbUbpgQPp8/Pizza-selling-mobile-app-design?node-id=0-1&p=f&t=p4RcViS8EPHl5eNl-0" class="overlay-btn" target="_blank">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>PizzaMart</h3>
+              <p>Pizza ordering mobile application.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-1" data-category="mobile">
+            <div class="project-image">
+              <img src="stylehaven.png" alt="StyleHaven">
+              <div class="project-overlay">
+                <a href="https://www.behance.net/gallery/245659543/STYLEHAVEN" class="overlay-btn" target="_blank">Case Study</a>
+                <a href="https://www.figma.com/design/IyCn7sqBIxnVVGTlVIGq42/StyleHaven?node-id=0-1&p=f&t=p4RcViS8EPHl5eNl-0" class="overlay-btn" target="_blank">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>StyleHaven</h3>
+              <p>Fashion e-commerce app.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-2" data-category="web">
+            <div class="project-image">
+              <img src="cinema.png" alt="Cinema Booking">
+              <div class="project-overlay">
+                <a href="https://www.behance.net/gallery/245659543/STYLEHAVEN" class="overlay-btn" target="_blank">Case Study</a>
+                <a href="https://www.figma.com/design/AAg1fMcvI0rPhm8rcvf4Fi/Cinema-Booking-Sytem?t=p4RcViS8EPHl5eNl-0" class="overlay-btn" target="_blank">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Cinema Booking</h3>
+              <p>Online ticket booking system.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal" data-category="mobile">
+            <div class="project-image">
+              <img src="coffee.png" alt="Coffee Ordering Mobile App">
+              <div class="project-overlay">
+                <a href="https://www.behance.net/gallery/246140551/Coffee-Shop-Mobile-Application" class="overlay-btn" target="_blank">Case Study</a>
+                <a href="https://www.figma.com/design/cx1o0RHbVQVKvRXj1f5YJ5/Coffee-shop-mobile-App-design?node-id=0-1&p=f&t=Sjya6nIUEnTQz8gx-0" class="overlay-btn" target="_blank">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Coffee Ordering Mobile App</h3>
+              <p>Coffee ordering and management app.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-1" data-category="web">
+            <div class="project-image">
+              <img src="project5.png" alt="Portfolio">
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">Case Study</a>
+                <a href="#" class="overlay-btn">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio</h3>
+              <p>Modern portfolio website.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-2" data-category="mobile">
+            <div class="project-image">
+              <img src="project6.png" alt="Food Delivery">
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">Case Study</a>
+                <a href="#" class="overlay-btn">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Food Delivery</h3>
+              <p>Food ordering experience.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal" data-category="web">
+            <div class="project-image">
+              <img src="project7.png" alt="Dashboard">
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">Case Study</a>
+                <a href="#" class="overlay-btn">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Dashboard</h3>
+              <p>Admin UI dashboard.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-1" data-category="mobile">
+            <div class="project-image">
+              <img src="project8.png" alt="Fitness App">
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">Case Study</a>
+                <a href="#" class="overlay-btn">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Fitness App</h3>
+              <p>Health tracking mobile app.</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-2" data-category="web">
+            <div class="project-image">
+              <img src="project9.png" alt="Landing Page">
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">Case Study</a>
+                <a href="#" class="overlay-btn">View Design</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Landing Page</h3>
+              <p>Modern SaaS landing UI.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Certifications</span>
+          <h2>Achievements & Certificates</h2>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card reveal modal-trigger" data-image="certificate1.jpg">
+            <img src="certificate1.jpg" alt="Certificate 1" />
+            <h3>Figma - UI/UX Design</h3>
+          </div>
+
+          <div class="cert-card reveal delay-1 modal-trigger" data-image="certificate2.jpg">
+            <img src="certificate2.jpg" alt="Certificate 2" />
+            <h3>Figma - UI/UX Design</h3>
+          </div>
+
+          <div class="cert-card reveal delay-2 modal-trigger" data-image="certificate3.jpg">
+            <img src="certificate3.jpg" alt="Certificate 3" />
+            <h3>Front-end Web Development</h3>
+          </div>
+
+          <div class="cert-card reveal delay-2 modal-trigger" data-image="certificate4.jpg">
+            <img src="certificate4.jpg" alt="Certificate 4" />
+            <h3>Python</h3>
+          </div>
+
+          <div class="cert-card reveal delay-2 modal-trigger" data-image="certificate5.jpg">
+            <img src="certificate5.jpg" alt="Certificate 5" />
+            <h3>AWS</h3>
+          </div>
+
+          <div class="cert-card reveal delay-2 modal-trigger" data-image="certificate6.jpg">
+            <img src="certificate6.jpg" alt="Certificate 6" />
+            <h3>Project Management</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Contact</span>
+          <h2>Let's Work Together</h2>
+          <p>Have a project idea or want to collaborate? Send me a message.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>thansani81@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Matara, Sri Lanka</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/tharushi-hansani-5951b7375</p>
+              </div>
+            </div>
+
+            <div class="contact-socials">
+              <a href="https://www.linkedin.com/in/tharushi-hansani-5951b7375/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/tharushi10" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.behance.net/senarattharush" target="_blank">
+                <i class="fa-brands fa-behance"></i>
+              </a>
+            </div>
+          </div>
+
+          <form
+            id="contactForm"
+            class="contact-form reveal delay-1"
+            action="https://formsubmit.co/thansani81@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+              <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+              <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+              <small class="error"></small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="formSuccess" class="success-message"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Tharushi Hansani. All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/tharushi-hansani-5951b7375/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/tharushi10" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.behance.net/senarattharush" target="_blank">
+          <i class="fa-brands fa-behance"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
